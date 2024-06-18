@@ -7,3 +7,35 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+/* Layout */
+
+header {
+    background-color: #F8F9FA;
+    position: fixed;
+    width: 100vw;
+}
+
+/* Elements */
+
+.navbar-brand {
+    width: 60px;
+}
+
+.navbar-big {
+    display: none;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.fa-bell {
+    color: #FF8F00;
+}
+
+/* Utility */
+
+.custom-search-bg {
+    background-color: #E5E5E5;
+}
