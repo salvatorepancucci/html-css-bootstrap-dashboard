@@ -17,7 +17,18 @@ header {
     z-index: 1;
 }
 
+.student .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
 /* Elements */
+
+.content-student {
+    width: 50%;
+    color: white;
+}
 
 .navbar-brand {
     width: 60px;
@@ -35,7 +46,7 @@ header {
     color: #FF8F00;
 }
 
-section {
+.sidebar {
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     position: absolute;
@@ -48,8 +59,24 @@ section {
     display: none;
 }
 
+.fa-plus {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.badge {
+    background-color: #165BBA;
+    display: inline;
+}
+
 /* Utility */
 
 .custom-search-bg {
     background-color: #E5E5E5;
+}
+
+.padding_top_6 {
+    padding-top: 86px;
 }
