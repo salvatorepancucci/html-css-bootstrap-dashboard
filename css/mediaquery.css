@@ -4,6 +4,25 @@
     }
 }
 
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-big {
+        display: block;
+        width: 200px;
+    }
+
+    span > .fa-bell {
+        display: none;
+    }
+
+    section {
+        top: 5%;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .navbar-brand {
         display: none;
@@ -16,5 +35,9 @@
 
     span > .fa-bell {
         display: none;
+    }
+
+    section {
+        top: 5%;
     }
 }
