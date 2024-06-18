@@ -41,7 +41,11 @@ section {
     position: absolute;
     top: 12%;
     height: 100vh;
-    width: 14%;
+    width: 70px;
+}
+
+.desc {
+    display: none;
 }
 
 /* Utility */

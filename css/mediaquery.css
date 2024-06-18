@@ -20,6 +20,20 @@
 
     section {
         top: 5%;
+        width: 150px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+    .desc {
+        display: flex;
+        color: white;
     }
 }
 
@@ -39,5 +53,19 @@
 
     section {
         top: 5%;
+        width: 150px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+    .desc {
+        display: flex;
+        color: white;
     }
 }
