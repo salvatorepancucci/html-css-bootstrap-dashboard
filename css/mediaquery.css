@@ -10,6 +10,17 @@
     .offset-md-1 {
         margin-left: 50px;
     }
+
+    .hidden {
+        display: inline-block;
+        width: 50%;
+        height: 7vh;
+        align-content: end;
+    }
+
+    table {
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -47,6 +58,13 @@
     .padding_top_6 {
         padding-top: 50px;
     }
+
+    .hidden {
+        display: inline-block;
+        width: 50%;
+        height: 7vh;
+        align-content: end;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -83,5 +101,12 @@
 
     .padding_top_6 {
         padding-top: 60px;
+    }
+
+    .hidden {
+        display: inline-block;
+        width: 50%;
+        height: 7vh;
+        align-content: end;
     }
 }

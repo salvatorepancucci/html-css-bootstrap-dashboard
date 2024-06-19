@@ -85,6 +85,10 @@ td > img {
     margin-right: 4px;
 }
 
+.hidden {
+    display: none;
+}
+
 .card-body > img {
     width: 100%;
 }
