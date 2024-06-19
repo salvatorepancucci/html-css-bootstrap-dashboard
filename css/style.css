@@ -66,9 +66,27 @@ header {
     margin-left: 5px;
 }
 
+.fa-pencil,
+.fa-trash {
+    border: 1px solid grey;
+    background-color: #F8F9FA;
+    border-radius: 10%;
+    padding: 5px;
+    color: grey;
+}
+
 .badge {
     background-color: #165BBA;
     display: inline;
+}
+
+td > img {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.card-body > img {
+    width: 100%;
 }
 
 /* Utility */
@@ -79,4 +97,8 @@ header {
 
 .padding_top_6 {
     padding-top: 86px;
+}
+
+.bg_color_white {
+    background-color: #F8F9FA;
 }
