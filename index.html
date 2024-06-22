@@ -52,7 +52,7 @@
     <main>
         <section class="sidebar">
             <div class="container d-flex vh-100">
-                <div class="row">
+                <div class="row vh-100">
                     <div class="col-12">
                         <div class="content-sidebar d-flex flex-column text-white text-center mt-4 pe-1">
                             <div class="menu"><i class="fa-solid fa-house my-2"></i>
@@ -79,7 +79,76 @@
                         <div class="col-10 col-md-3 col-lg-3 col-xl-3 offset-1 offset-md-1 offset-lg-3 offset-xl-2 order-md-3 order-lg-3 order-xl-3">
                             <div class="content-student ms-4 my-4">
                                 Nuovo Studente
-                                <span><i class="fa-solid fa-plus"></i></span>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <span><i class="fa-solid fa-plus"></i></span>
+                                </button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                    <div class="offcanvas-body">
+                                        <div class="container w-60 mt-5">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="firstName" class="form-label">Nome</label>
+                                                            <input type="text" class="form-control" id="firstName" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="lastName" class="form-label">Cognome</label>
+                                                            <input type="text" class="form-control" id="lastName" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="email" class="form-label">Email</label>
+                                                            <input type="email" class="form-control" id="email" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="password" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="password" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="address" class="form-label">Indirizzo</label>
+                                                            <input type="text" class="form-control" id="address" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label for="city" class="form-label">Città</label>
+                                                            <input type="text" class="form-control" id="city" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="state" class="form-label">Stato</label>
+                                                            <select class="form-select" id="state" required>
+                                                                <option selected disabled value="">Scegli...</option>
+                                                                <option>Stato 1</option>
+                                                                <option>Stato 2</option>
+                                                                <option>Stato 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="zip" class="form-label">CAP</label>
+                                                            <input type="text" class="form-control" id="zip" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="formFile" class="form-label">Foto</label>
+                                                            <input class="form-control" type="file" id="formFile">
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="agreeCheck" required>
+                                                            <label class="form-check-label" for="agreeCheck">Seleziona per proseguire</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-between">
+                                                    <button type="submit" class="btn btn-primary me-2">Salva</button>
+                                                    <button type="reset" class="btn btn-warning">Svuota</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                          </div>
                          <div class="col-10 col-md-3 col-lg-3 col-xl-3 offset-1 offset-md-1 offset-lg-3 offset-xl-2">
@@ -105,8 +174,8 @@
             <div class="classes bg_color_white">
                 <div class="container">
                     <div class="row offset-1 offset-md-1 offset-xl-1 gx-lg-5 gx-xl-5">
-                        <div class="col-12 col-md-12 col-lg-7 offset-lg-1 px-lg-1 order-lg-1">
-                            <div class="content-classes mt-2 py-md-2">
+                        <div class="col-12 ps-4 col-md-12 col-lg-7 offset-lg-1 py-2 px-md-0 px-lg-1 order-lg-1">
+                            <div class="content-classes px-0 mt-2 py-md-2">
                                 <div class="card">
                                     <div class="card-header">
                                       Prossime classi
@@ -272,8 +341,8 @@
                                   </div>
                             </div>
                          </div>
-                         <div class="col-12 col-md-12 col-lg-7 offset-lg-1 px-lg-1 order-lg-3">
-                            <div class="content-classes py-2 py-md-2 px-md-0 ps-3">
+                         <div class="col-12 col-md-12 col-lg-7 offset-lg-1 px-md-0 px-lg-1 order-lg-3">
+                            <div class="content-classes px-0 py-2 py-md-2 px-md-0 ps-3">
                                 <div class="card">
                                     <div class="card-header">
                                       F.A.Q.
@@ -320,8 +389,8 @@
                                 </div>
                             </div>
                          </div>
-                         <div class="col-12 col-md-12 col-lg-4 offset-lg-0 px-lg-1 order-lg-2 h-20">
-                            <div class="content-classes py-2 py-md-2 px-md-0 ps-3 mt-2">
+                         <div class="col-12 col-md-12 col-lg-4 offset-lg-0 px-md-0 px-lg-1 order-lg-2">
+                            <div class="content-classes py-md-2 px-md-0 ps-3 mt-2 mt-lg-3 mt-xl-3">
                                 <div class="card">
                                     <div class="card-header">
                                       Todo
@@ -349,9 +418,8 @@
                                 </div>
                             </div>
                          </div>
-                         <div class="col-12 col-md-12 col-lg-4 offset-lg-0 px-lg-1 order-lg-4">
-                            <div class="content-classes py-2 py-md-2 px-md-0 ps-3">
-                                <div class="card">
+                         <div class="col-12 col-md-12 col-lg-4 offset-lg-0 px-md-0 py-md-2 px-lg-1 order-lg-4">
+                            <div class="content-classes py-3 py-md-2 px-md-0 ps-3">
                                     <div class="card-body">
                                         <img src="./img/stats.jpeg" alt="stats">
                                         <h5 class="card-title">Utenti attivi</h5>

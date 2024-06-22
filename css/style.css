@@ -93,6 +93,10 @@ td > img {
     width: 100%;
 }
 
+.offcanvas.offcanvas-end {
+    width: auto;
+}
+
 /* Utility */
 
 .custom-search-bg {
